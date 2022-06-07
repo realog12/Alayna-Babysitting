@@ -848,13 +848,34 @@ button,
   #footer > ul {
     padding-left: 0;
   }
-  #footer .info li{
+  #footer .pic li {
+    display: inline-block;
+  }
+  #footer .Alayna-img {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translateY(0.5em);
+  }
+  #footer .Alayna-img > img {
+    max-width: 100%;
+    height: auto;
+  }
+  #footer .info li {
     list-style: none;
     padding-left: 0;
     line-height: 0;
+    display: block;
   }
   #footer .icons {
-    margin: 0 0 0.5em 0; }
+    margin: 0 0 0.5em 0;
+    display: inline;
+  }
+  #footer .icons li {
+    display: inline-block;
+  }
   #footer .copyright {
     font-size: 0.8em;
     list-style: none;
