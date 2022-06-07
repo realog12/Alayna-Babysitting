@@ -845,10 +845,11 @@ button,
   left: 4em;
   opacity: 0.5;
   position: absolute; }
-  #footer > ul {
+  #footer ul {
     padding-left: 0;
   }
   #footer .pic li {
+    list-style: none;
     display: inline-block;
   }
   #footer .Alayna-img {
@@ -859,7 +860,7 @@ button,
     border-radius: 50%;
     transform: translateY(0.5em);
   }
-  #footer .Alayna-img > img {
+  #footer .Alayna-img img {
     max-width: 100%;
     height: auto;
   }
